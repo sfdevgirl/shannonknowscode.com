@@ -11,41 +11,42 @@ width:auto;
         width: 100%;
     }
     header{
-        max-width: 600px;
+        max-width: 900px;
   margin: 0 auto;
     }
     
 h1{
 font-family: 'Dancing Script', cursive;
-padding-top: 1em;
+padding-bottom: 30px;
 line-height:150%;
 letter-spacing: .1em;
 text-align: center;
-font-size:80px;
+font-size:90px;
 color: #333;
+
 
 }
 #head-tag{
 font-family: 'Poiret One', cursive;
 font-size:45px;
 color:white;
-
+padding-top: 70px;
 letter-spacing:.02em;
 float:right;
-margin-right: 4.5em;
-margin-left: 2.5em;
+
 
 }
 #header-info samp {
 padding-top: 40px;
 margin-top:-1.5em;
 color:#ED2939;
-float:right;
+
 font-size:35px;
 font-weight:bold;
 font-family:'Rock Salt', cursive;
 
-margin-right:5em;
+
+
 
 }
 
@@ -57,7 +58,7 @@ padding-bottom: 4.5em;
 }
 
 .more {
-    background-color:transparent;
+      background-color:#ED2939;
     -webkit-border-top-left-radius:20px;
     -moz-border-radius-topleft:20px;
     border-top-left-radius:20px;
@@ -71,28 +72,51 @@ padding-bottom: 4.5em;
     -moz-border-radius-bottomleft:20px;
     border-bottom-left-radius:20px;
     text-indent:0;
-    border:1px solid #ffffff;
+     border:2px solid #ffffff;
     display:inline-block;
     color:#ffffff;
-    font-family:'Poiret One', cursive;
+    font-family:'Hammersmith One';
     font-weight: bold;
-    font-size:25px;
+    font-size:30px;
     letter-spacing: .1em;
     font-style:normal;
-    height:50px;
-    line-height:50px;
-    width:170px;
+    height:70px;
+    line-height:70px;
+    width:230px;
     text-decoration:none;
     text-align:center;
-   
    
 
 }
 
 .more:hover {
-    position:relative;
-    
-    
-    top:1px;
+       background-color:#9ad7b9;
+    -webkit-border-top-left-radius:20px;
+    -moz-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+     border:2px solid #ffffff;
+    display:inline-block;
+    color:#ffffff;
+    font-family:'Hammersmith One';
+    font-weight: bold;
+    font-size:30px;
+    letter-spacing: .1em;
+    font-style:normal;
+    height:70px;
+    line-height:70px;
+    width:230px;
+    text-decoration:none;
+    text-align:center;
+   
      
 }
