@@ -27,7 +27,39 @@ background: #9ad7b9;
 
   
     
-     
+  .site-title  {
+    font-family: 'Hammersmith One', sans-serif;
+font-size:65px;
+    text-decoration: none;
+color: #333;
+
+
+    margin: o auto;
+    font-size: 75px;
+    line-height: 1.2;
+    letter-spacing: inherit;
+    padding-left: 40px;
+}
+
+.site-description {
+    margin: 0 auto;
+    color: #eee;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    
+    font-style: italic;
+    letter-spacing: 0.16px;
+    font-weight: inherit;
+    margin-top: 5px;
+line-height: 150%;
+    padding-left: 40px;
+    margin-left:40px;}   
+
+.disclaim{
+margin: 40px;
+padding-left: 40px;
+
+}
 
 
 
@@ -67,7 +99,7 @@ text-transform: uppercase;
 font-family:Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 margin-top:-0px;
 letter-spacing:.5em;
-color:#333;
+color:white;
 }
 
 
@@ -88,60 +120,63 @@ font-size:40px;
 
 }
 
-nav{
-    font-family: 'Englebert', sans-serif;
-        background: #9ad7b9;
-        min-height: 50px;
+    nav{
+        font-family: 'Englebert', sans-serif;
+            background: #9ad7b9;
+            min-height: 50px;
+            position: relative;
+           top:0;
+           border-bottom: 3px solid #eee;
+margin-top: 0;
+padding-top: 10px;
+margin-bottom: 20px;
+font-weight: bold;
+            width: 100%;
+            
+    list-style-type: none;
+    }
+
+        }
+    .port{
         position: fixed;
-       top:0;
-        text-align: center;
-        -webkit-transition: background 0.3s;
-           -moz-transition: background 0.3s;
-                transition: background 0.3s;
-        width: 100%;
-        z-index: 9999;
-  border-bottom: 2px solid #ffffff;
-        margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
+    }
+    nav li{
+         display: inline-block;
+padding: 1px 40px;
+width: auto;
+     
+    }
+
+
+
+      nav a{
+        
+     list-style-type:none;
+      
+     padding: 5px 0px;
+text-decoration: none;
+display: block;
+line-height: 1.2;
+font-size: 19px;
+letter-spacing: .16px;
+
+   float: left;
+    color: #333;
+    text-transform: uppercase;
+     font-family: 'Englebert', sans-serif;
+     
+    }
+
+
+
+    nav li:hover > a {
+    text-decoration: underline;
+
 
     }
-.port{
-    position: fixed;
-}
-nav ul{
-     max-width: 1200px;
- 
-}
-
-  nav li, nav a{
-    
- list-style-type:none;
-  
-  padding-top: 10px;
-  font-size: 19px;
-letter-spacing:.16em;
-font-weight:bold;
-padding-left: 30px;
-
-text-decoration: none;
-color: white;
-text-transform: uppercase;
- font-family: 'Englebert', sans-serif;
- display: inline;
-}
-
-
-
-nav a:hover{
-color: #333;
-
-
-}
-nav a:active{
-color:#ED2939;
-}
+    nav a:active{
+    color:#ED2939;
+    }
 
 
 #about-me, #contact, #portfolio, #resume{
