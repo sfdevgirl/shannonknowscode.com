@@ -6,7 +6,7 @@ height: 100%;
 }
 body{
 
- background: #9ad7b9;
+ background: white;
  
 
 }
@@ -31,7 +31,7 @@ background: #9ad7b9;
     font-family: 'Hammersmith One', sans-serif;
 font-size:65px;
     text-decoration: none;
-color: white;
+color: #333;
 
 
     margin: o auto;
