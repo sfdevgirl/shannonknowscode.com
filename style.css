@@ -185,6 +185,53 @@ letter-spacing: .16px;
 
 }
 
+.project{
+    margin-top: 50px;
+}
+
+.project img{
+    width: 200px;
+border: 2px #333 solid;
+}
+
+.project img:hover{
+    border: 2px white solid;
+}
+
+figcaption {
+    font-family: 'Quicksand';
+    color: #333;
+    font-size: 14px;
+    
+margin-top: 5px;
+
+
+}
+
+.caption {
+    color:#ae4b33;
+}
+
+.used{
+    color: white;
+    font-weight: bolder;
+}
+
+figcaption a{
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+
+figcaption a:hover{
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+
 .me {
 padding-bottom: 10px;
 padding-left: 20px;
