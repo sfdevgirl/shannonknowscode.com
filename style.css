@@ -136,7 +136,7 @@ font-weight: bold;
     list-style-type: none;
     }
 
-        }
+        
     .port{
         position: fixed;
     }
@@ -239,18 +239,26 @@ float: right;
 }
 
 
-article, p {
+article {
 color: #333;
-
 margin:0 20px 0 20px;
-font-size: 21px;
+font-size: 19px;
 text-indent: 3em;
 font-family: 'Raleway';
-line-height: 160%;
+line-height: 180%;
 text-align:justify;
-
-
 }
+
+p {
+color: #333;
+margin:20px 20px 0 20px;
+font-size: 19px;
+text-indent: 3em;
+font-family: 'Raleway';
+line-height: 180%;
+text-align:justify;
+}
+
 article a{
 
 text-decoration: none;
@@ -265,9 +273,10 @@ article a:hover, a:active {
 
 blockquote {
 font-family: 'Fjalla One', sans-serif;
-font-size:38px;
+font-size:40px;
 color: white;
-margin:10px;
+margin-top: 5px;
+margin-bottom: 10px;
 font-style: italic;
 text-align:right;
 
