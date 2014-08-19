@@ -10,6 +10,10 @@ body{
  
 
 }
+
+.overflow {
+    overflow: hidden;
+}
 .body{
 background: #9ad7b9;
     
@@ -20,6 +24,7 @@ background: #9ad7b9;
 
 
         background: #9ad7b9;
+        margin: 0 auto;
         
         
     }
@@ -108,9 +113,9 @@ h5 {
 
 font-family: 'Hammersmith One', sans-serif;
 color:#222;
-
+display: inline;
 font-size:50px;
-margin:10px 0 20px 30px;
+margin:10px 0 0 30px;
 
 
 }
@@ -179,8 +184,9 @@ letter-spacing: .16px;
     }
 
 
-#about-me, #contact, #portfolio, #resume{
-
+ #contact{
+margin: 0;
+display: inline;
 
 
 }
@@ -305,82 +311,73 @@ word-wrap: break-word;
 
 }
 
+.info {
+    
+padding-bottom: 11px;
+}
 
-#contact section {
-
-padding-bottom: 5px;
-margin-left:30px;
+.location{
+letter-spacing:.05em;
+color:white;
+font-size:28px;
 font-family: 'Poiret One', cursive;
-padding-left: 20px;
 color:white;
 text-align:justify;
-
-
+margin: 0;
+text-indent: 15px;
+line-height: 150%;
 }
 
-#contact a{
-    color:#333;
-}
-#contact a:hover{
-    color:white;
-    text-decoration: underline;
-}
 
-td#email {
+
+#email {
 font-family: 'Poiret One', cursive;
 letter-spacing:.2em;
 font-size: 20px;
 }
 
-#social{
-padding-top:20px;
-font-family: 'Indie Flower', cursive;
 
-}
-td a {
-text-decoration: none;
+
+.location a {
+
 font-size: 22px;
 
 letter-spacing: .1em;
-color: #ae4b33;
+color: #333;
 }
 
 
 
 
- td a:hover{
+ .location a:hover{
 color:#ED2939;
 }
 
 
 
 
-td#first {
-
-font-size:50px;
+.first {
+font-family: 'Poiret One', cursive;
+color: white;
+font-size:60px;
 letter-spacing:.1em;
 line-height:150%;
-}
-#location{
-letter-spacing:.05em;
-color:white;
-font-size:25px;
+margin: 0;
+text-indent: 0;
+line-height: 150%;
 }
 
-td#phone {
-font-family: 'Poiret One', cursive;
-letter-spacing:.5em;
-font-size:15px;
-}
 
 .color{
-    margin-left: 0;
+    margin:5px;
     list-style-type: none;
+    display: inline-block;
+    padding:0;
 
 
 }
 .color li {float:left;
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 footer {
@@ -448,6 +445,15 @@ display: inline;
 
 }
 
+.social-contact {
+    
+margin:30px;
+font-family: 'Poiret One', cursive;
+color: white;
+text-align: justify;
+display: inline-block;
+}
+
 .color li:hover {
     position:relative;
     
@@ -456,7 +462,14 @@ display: inline;
 }
 
 
+.contact-form {
+    width: 650px;
+float: right;
+clear: both;
 
+padding-right: 30px;
+
+}
  
 
 
