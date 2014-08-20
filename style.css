@@ -1,29 +1,36 @@
 
 html{
-    margin: 0;
-height: 100%;
-    
-}
+         background: url(http://i1375.photobucket.com/albums/ag479/shannonknowscode/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Images/Smooth-Touch-Workspace-1300x866_zps6b29158c.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+width:auto;
+      
+        
+        width: 100%;
+    }
+
 body{
 
- background: #9ad7b9;
  
 
 }
 
 .overflow {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .body{
-background: #9ad7b9;
+
     
-    min-height: 550px;
+    
         }
 
 .page{
 
 
-        background: #9ad7b9;
+        padding-bottom: 30px;
         margin: 0 auto;
         
         
@@ -113,9 +120,10 @@ h5 {
 
 font-family: 'Hammersmith One', sans-serif;
 color:#222;
+background-color: white;
 display: inline;
 font-size:50px;
-margin:10px 0 0 30px;
+margin:10px 0 0px 30px;
 
 
 }
@@ -127,11 +135,11 @@ font-size:40px;
 
     nav{
         font-family: 'Englebert', sans-serif;
-            background: #9ad7b9;
+             background-color: transparent;
             min-height: 50px;
             position: relative;
            top:0;
-           border-bottom: 3px solid #eee;
+           border-bottom: 3px solid #5C3317;
 margin-top: 0;
 padding-top: 10px;
 margin-bottom: 20px;
@@ -149,9 +157,10 @@ font-weight: bold;
          display: inline-block;
 padding: 1px 40px;
 width: auto;
+
      
     }
-
+ul {padding:0;}
 
 
       nav a{
@@ -183,17 +192,71 @@ letter-spacing: .16px;
     color:#ED2939;
     }
 
+aside {
+   float: left;
+/* padding: 0 20px; */
+margin: 0 40px 0 20px;
+position: absolute;
+top:40;
 
- #contact{
+}
+
+aside figcaption{
+    
+    color:#222;
+}
+
+.front-nav {
+   list-style-type: none;
+   margin: 0;
+   margin-top: 38px;
+   padding: 5px;
+   background-color:#FFFFFF;
+}
+
+#about-me aside {
+    margin-top: 48px;
+}
+.front-nav img{
+    
+    width:70px;
+}
+
+.front-nav a:hover {
+    position:relative;
+   bottom:5px;
+   color: inherit;
+   font-size: 15px;
+}
+
+
+.front-nav a {
+    color: #222;
+    text-decoration: none;
+    font-family:'Hammersmith One';
+    font-size: 15px;
+    
+}
+.front-nav ul {
+    display: inline;
+    padding: 0 50px 30px 20px;
+    margin: 0;
+}
+
+
+
+
+ #about-me ,#contact, #portfolio{
 margin: 0;
 display: inline;
-
+clear: both;
 
 }
 
 .project{
     margin-top: 50px;
 }
+
 
 .project img{
     width: 200px;
@@ -204,13 +267,20 @@ border: 2px #333 solid;
     border: 2px white solid;
 }
 
-figcaption {
+.front-nav figcaption {
     font-family: 'Quicksand';
     color: #333;
-    font-size: 14px;
-    
-margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+margin-top: 7px;
 
+
+}
+
+figcaption {
+    font-size: 17px;
+    bottom-padding: 3px;
 
 }
 
@@ -219,18 +289,18 @@ margin-top: 5px;
 }
 
 .used{
-    color: white;
+    color: #333;
     font-weight: bolder;
 }
 
-figcaption a{
+.project a{
     color: #333;
-    font-size: 15px;
+    
     text-decoration: none;
     letter-spacing: 0.6px;
 }
 
-figcaption a:hover{
+.project a:hover{
     color: white;
     font-size: 18px;
     text-decoration: underline;
@@ -239,25 +309,30 @@ figcaption a:hover{
 
 
 .me {
-padding-bottom: 10px;
-padding-left: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
 float: right;
+border: 2px solid #333;
 }
 
 
 article {
 color: #333;
-margin:0 20px 0 20px;
-font-size: 19px;
+width: 1100px;
+margin: 30px 40px 0 20px;
+font-size: 20px;
 text-indent: 3em;
 font-family: 'Raleway';
-line-height: 180%;
+line-height: 190%;
 text-align:justify;
+float: right;
+padding: 10px;
+padding-top:19px;
 }
 
-p {
+article.p {
 color: #333;
-margin:20px 20px 0 20px;
+
 font-size: 19px;
 text-indent: 3em;
 font-family: 'Raleway';
@@ -270,6 +345,7 @@ article a{
 text-decoration: none;
 color: #ae4b33;
 font-style: italic;
+width: 600px;
 
 }
 
@@ -285,6 +361,8 @@ margin-top: 5px;
 margin-bottom: 10px;
 font-style: italic;
 text-align:right;
+background-color: #222;
+padding: 5px 10px 5px 0;
 
 }
 #resume {
@@ -314,6 +392,9 @@ word-wrap: break-word;
 .info {
     
 padding-bottom: 11px;
+float: left;
+clear: both;
+padding-right: 60px;
 }
 
 .location{
@@ -321,7 +402,7 @@ letter-spacing:.05em;
 color:white;
 font-size:28px;
 font-family: 'Poiret One', cursive;
-color:white;
+color:#333;
 text-align:justify;
 margin: 0;
 text-indent: 15px;
@@ -358,7 +439,7 @@ color:#ED2939;
 
 .first {
 font-family: 'Poiret One', cursive;
-color: white;
+color: #333;
 font-size:60px;
 letter-spacing:.1em;
 line-height:150%;
@@ -381,7 +462,7 @@ line-height: 150%;
 }
 
 footer {
-   color: white;
+   color: #333;
 
 position: fixed;
 bottom: 0;
@@ -393,8 +474,7 @@ margin: 0;
 padding-right: 10px;
 padding-bottom: 10px;
 height: auto;
-
-background: #222;
+background-color: #333;
 }
 
 footer ul {
@@ -446,12 +526,18 @@ display: inline;
 }
 
 .social-contact {
-    
+    clear: both;
 margin:30px;
+padding-left: 117px;
 font-family: 'Poiret One', cursive;
 color: white;
 text-align: justify;
 display: inline-block;
+background-color: rgba(255,255,255, 0.5);
+margin: 30px 40px 0 20px;
+margin-right: 40px;
+padding: 10px 20px 0px 15px;
+float: right;
 }
 
 .color li:hover {
@@ -462,16 +548,44 @@ display: inline-block;
 }
 
 
-.contact-form {
-    width: 650px;
-float: right;
-clear: both;
+.glass {
+   
 
-padding-right: 30px;
+ 
+border-radius: 4px;
+background-color: rgba(255,255,255, 0.5);
+margin: 30px 40px 0 20px;
+margin-right: 40px;
+padding: 10px 20px 0px 15px;
+width: 1160px;
+height: 550px;
+    
+text-align:justify;
+float: right;
 
 }
- 
 
+#square {
+     width: 650px;
+margin:0 auto;
+overflow-y: scroll;
+height:530px;
+background-color: white;
+}
 
+.form {
+    margin-bottom: 30px;
+    float: right;
+   
 
+}
+
+/*article.glass {
+    width: 1160px;
+    height: 550px;
+    margin-right: 40px;
+    
+    padding: 10px 20px 0px 15px;
+}
+*/
    

@@ -1,0 +1,157 @@
+html{
+         background: url(http://i1375.photobucket.com/albums/ag479/shannonknowscode/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Images/IMG_6855-1300x866_zps5c49dab9.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+width:auto;
+      
+        text-align: center;
+        width: 100%;
+    }
+
+body {
+        margin: 0 auto;
+        padding: 10px 10px 20px 10px;
+        overflow: hidden;
+}
+
+header{
+        
+  margin: 0 auto;
+    }
+    
+h1{
+font-family: 'Hammersmith One';
+padding-bottom: 10px;
+line-height: 150%;
+letter-spacing: .1em;
+text-align: center;
+font-size: 90px;
+color: #333;
+margin: 0;
+padding-top: 30px;
+}
+
+#head-tag{
+font-family: 'Quicksand';
+font-size:40px;
+color:white;
+
+letter-spacing:.02em;
+}
+
+.tag {
+font-size: 30px;
+}
+
+#header-info samp {
+padding-top: 40px;
+margin-top:-1.5em;
+color:#ED2939;
+
+font-size:35px;
+font-weight:bold;
+font-family:'Rock Salt', cursive;
+}
+
+
+h2 {
+
+text-align:center;
+
+}
+
+.barnav {
+    margin-top: 85px;
+}
+
+.front-nav {
+    margin-left: 83px;
+    display: inline-block;
+    
+}
+.front-nav img{
+    
+    width:100px;
+}
+
+.front-nav img:hover {
+    position:relative;
+   bottom:5px;
+}
+
+
+.front-nav a {
+    color: black;
+    text-decoration: none;
+    font-family:'Hammersmith One';
+    font-size: 18px;
+    
+}
+
+
+.more {
+      background-color:#ED2939;
+    -webkit-border-top-left-radius:20px;
+    -moz-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+     border:2px solid #ffffff;
+    display:inline-block;
+    color:#ffffff;
+    font-family:'Hammersmith One';
+    font-weight: bold;
+    font-size:30px;
+    letter-spacing: .1em;
+    font-style:normal;
+    height:70px;
+    line-height:70px;
+    width:230px;
+    text-decoration:none;
+    text-align:center;
+   
+
+}
+
+.more:hover {
+       background-color:#9ad7b9;
+    -webkit-border-top-left-radius:20px;
+    -moz-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+     border:2px solid #ffffff;
+    display:inline-block;
+    color:#ffffff;
+    font-family:'Hammersmith One';
+    font-weight: bold;
+    font-size:30px;
+    letter-spacing: .1em;
+    font-style:normal;
+    height:70px;
+    line-height:70px;
+    width:230px;
+    text-decoration:none;
+    text-align:center;
+   
+     
+}
