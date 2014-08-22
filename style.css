@@ -1,4 +1,5 @@
 
+
 html{
          background: url(http://i1375.photobucket.com/albums/ag479/shannonknowscode/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Images/Smooth-Touch-Workspace-1300x866_zps6b29158c.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -7,10 +8,12 @@ html{
   background-size: cover;
 
 width:auto;
-      
+     /* background-color: #D3D3D3;*/
         
         width: 100%;
     }
+
+
 
 body{
 
@@ -19,7 +22,7 @@ body{
 }
 
 .overflow {
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .body{
 
@@ -111,22 +114,50 @@ text-transform: uppercase;
 font-family:Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 margin-top:-0px;
 letter-spacing:.5em;
-color:white;
+color:#222;
 }
 
 
 
-h5 {
+h5 a, h5 a:visited, h5 a:focus {
 
-font-family: 'Hammersmith One', sans-serif;
+font-family:'Cabin Sketch';
 color:#222;
 background-color: white;
+text-decoration: none;
 display: inline;
 font-size:50px;
 margin:10px 0 0px 30px;
 
+}
+
+h5 a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+font-family: 'Quicksand';
+color: #16a085;
+font-size: 35px;
+float: right;
+margin:10px 20px;
+padding-bottom: 5px;
+text-align: right;
+position: fixed;
+right: 0;
+top: 0;
 
 }
+
+ #bottom {
+    color: white;
+    font-size: 15px;
+   background-color: #16a085;
+   position: fixed;
+right: 0;
+
+}
+
 h6{
 font-family: 'Special Elite', cursive;
 font-size:40px;
@@ -255,6 +286,8 @@ clear: both;
 
 .project{
     margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 15px double #16a085;
 }
 
 
@@ -319,24 +352,48 @@ border: 2px solid #333;
 article {
 color: #333;
 width: 1100px;
-margin: 30px 40px 0 20px;
-font-size: 20px;
+margin: 20px 40px 0 20px;
+font-size: 18px;
 text-indent: 3em;
 font-family: 'Raleway';
-line-height: 190%;
+line-height: 180%;
 text-align:justify;
 float: right;
-padding: 10px;
-padding-top:19px;
+
+padding-top:10px;
 }
+
+.freelance {
+    font-family:'Indie flower';
+    text-align: center;
+    text-indent: 0;
+   margin-left: 15px;
+color: #333;
+font-size:37px;
+margin-bottom: 10px;
+margin-top:10px;
+}
+
+.need {
+    font-family:'fredoka One';
+    font-size: 60px;
+    padding-right: 10px;
+}
+
+.work{
+border-bottom: 15px double #16a085;
+padding:10px;
+width:1080px;
+}
+p {margin:0;}
 
 article.p {
 color: #333;
 
-font-size: 19px;
+font-size: 18px;
 text-indent: 3em;
 font-family: 'Raleway';
-line-height: 180%;
+line-height: 150%;
 text-align:justify;
 }
 
@@ -355,26 +412,27 @@ article a:hover, a:active {
 
 blockquote {
 font-family: 'Fjalla One', sans-serif;
-font-size:40px;
+font-size:37px;
 color: white;
 margin-top: 5px;
 margin-bottom: 10px;
 font-style: italic;
-text-align:right;
-background-color: #222;
+text-align:center;
+background-color: #16a085;
 padding: 5px 10px 5px 0;
 
 }
 #resume {
-overflow:hidden;
-background: #9ad7b9;
+margin-top: 20px;
+
 }
 
 
 
 .resume{
 
-
+border: 1px solid white;
+border-radius: 4px;
 margin-bottom:30px;
 margin-left: 40px;
 margin-top:10px;
@@ -391,10 +449,11 @@ word-wrap: break-word;
 
 .info {
     
-padding-bottom: 11px;
+
 float: left;
 clear: both;
 padding-right: 60px;
+padding-left:5px;
 }
 
 .location{
@@ -407,6 +466,7 @@ text-align:justify;
 margin: 0;
 text-indent: 15px;
 line-height: 150%;
+margin-left: 30px;
 }
 
 
@@ -415,6 +475,10 @@ line-height: 150%;
 font-family: 'Poiret One', cursive;
 letter-spacing:.2em;
 font-size: 20px;
+padding-bottom: 10px;
+margin-bottom: 10px;
+border-bottom: 15px double #16a085;
+
 }
 
 
@@ -422,7 +486,7 @@ font-size: 20px;
 .location a {
 
 font-size: 22px;
-
+text-decoration: none;
 letter-spacing: .1em;
 color: #333;
 }
@@ -446,8 +510,62 @@ line-height:150%;
 margin: 0;
 text-indent: 0;
 line-height: 150%;
+margin-left: 30px;
 }
 
+.first-rates {
+   
+margin: 1px;
+
+
+}
+
+.rates {
+     font-size: 20px;
+     margin-top: 5px;
+     color:#333;
+     font-family: 'Montserrat Alternates', sans-serif;
+     margin-left: 30px;
+     padding-left: 10px;
+}
+
+.extra {
+    color:#333;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    
+    
+     
+}
+}
+
+.rate-info {
+    color:#333;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-left:20px;
+    min-width: 277px;
+}
+
+.cost {
+    text-align: right;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color:#333;
+    width:200px;
+}
+
+.money {
+margin-bottom: 10px;
+margin-left: 30px;
+margin-top: 5px;
+     
+}
+table.money {
+    width: 485px;
+}
 
 .color{
     margin:5px;
@@ -528,15 +646,13 @@ display: inline;
 .social-contact {
     clear: both;
 margin:30px;
-padding-left: 117px;
+
 font-family: 'Poiret One', cursive;
-color: white;
+color: #333;
 text-align: justify;
 display: inline-block;
 background-color: rgba(255,255,255, 0.5);
-margin: 30px 40px 0 20px;
 margin-right: 40px;
-padding: 10px 20px 0px 15px;
 float: right;
 }
 
@@ -559,23 +675,27 @@ margin-right: 40px;
 padding: 10px 20px 0px 15px;
 width: 1160px;
 height: 550px;
-    
+
 text-align:justify;
 float: right;
-
+overflow-y: scroll;
 }
 
+
+
+
 #square {
-     width: 650px;
+     width: 600px;
 margin:0 auto;
 overflow-y: scroll;
-height:530px;
+height:550px;
 background-color: white;
 }
 
 .form {
-    margin-bottom: 30px;
+    
     float: right;
+    height: 560px;
    
 
 }
