@@ -64,7 +64,7 @@ text-align:center;
 }
 
 .barnav {
-    margin-top: 85px;
+    margin-top: 65px;
 }
 
 .front-nav {
@@ -91,6 +91,9 @@ text-align:center;
     
 }
 
+.even  {
+    color:white;
+}
 
 .more {
       background-color:#ED2939;

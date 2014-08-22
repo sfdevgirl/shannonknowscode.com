@@ -8,7 +8,7 @@ html{
   background-size: cover;
 
 width:auto;
-     /* background-color: #D3D3D3;*/
+    /* background-color: #D3D3D3;*/
         
         width: 100%;
     }
@@ -240,7 +240,7 @@ aside figcaption{
 .front-nav {
    list-style-type: none;
    margin: 0;
-   margin-top: 38px;
+   margin-top: 25px;
    padding: 5px;
    background-color:#FFFFFF;
 }
@@ -646,7 +646,7 @@ display: inline;
 .social-contact {
     clear: both;
 margin:30px;
-
+margin-top: 0;
 font-family: 'Poiret One', cursive;
 color: #333;
 text-align: justify;
@@ -670,11 +670,11 @@ float: right;
  
 border-radius: 4px;
 background-color: rgba(255,255,255, 0.5);
-margin: 30px 40px 0 20px;
+
 margin-right: 40px;
-padding: 10px 20px 0px 15px;
+padding: 10px 20px 40px 15px;
 width: 1160px;
-height: 550px;
+height: 500px;
 
 text-align:justify;
 float: right;
@@ -688,7 +688,7 @@ overflow-y: scroll;
      width: 600px;
 margin:0 auto;
 overflow-y: scroll;
-height:550px;
+height:510px;
 background-color: white;
 }
 
