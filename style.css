@@ -153,8 +153,8 @@ top: 0;
     color: white;
     font-size: 15px;
    background-color: #16a085;
-   position: fixed;
-right: 0;
+   text-align: center;
+   padding: 0 70px;
 
 }
 
@@ -240,7 +240,7 @@ aside figcaption{
 .front-nav {
    list-style-type: none;
    margin: 0;
-   margin-top: 25px;
+   margin-top: 44px;
    padding: 5px;
    background-color:#FFFFFF;
 }
@@ -646,7 +646,7 @@ display: inline;
 .social-contact {
     clear: both;
 margin:30px;
-margin-top: 0;
+margin-top: 40px;
 font-family: 'Poiret One', cursive;
 color: #333;
 text-align: justify;
@@ -670,7 +670,7 @@ float: right;
  
 border-radius: 4px;
 background-color: rgba(255,255,255, 0.5);
-
+margin-top: 40px;
 margin-right: 40px;
 padding: 10px 20px 40px 15px;
 width: 1160px;
