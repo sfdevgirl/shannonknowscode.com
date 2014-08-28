@@ -6,11 +6,11 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+width: 100%;
 
-width:auto;
     /* background-color: #D3D3D3;*/
         
-        width: 100%;
+        
     }
 
 
@@ -228,7 +228,7 @@ aside {
 /* padding: 0 20px; */
 margin: 0 40px 0 20px;
 position: absolute;
-top:40;
+top:21;
 
 }
 
@@ -283,6 +283,8 @@ display: inline;
 clear: both;
 
 }
+
+
 
 .project{
     margin-top: 50px;
@@ -646,12 +648,12 @@ display: inline;
 .social-contact {
     clear: both;
 margin:30px;
-margin-top: 40px;
+margin-top: 25px;
 font-family: 'Poiret One', cursive;
 color: #333;
 text-align: justify;
 display: inline-block;
-background-color: rgba(255,255,255, 0.5);
+background-color: rgba(255,255,255, 0.9);
 margin-right: 40px;
 float: right;
 }
