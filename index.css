@@ -41,7 +41,7 @@ line-height: 72%;
 font-family: 'Quicksand';
 text-align: center;
 font-size: 65px;
-color: white;
+color: 5EC19E;
 margin: 0;
 padding-top: 10px;
 text-decoration: none;
@@ -62,7 +62,7 @@ margin-bottom:30px;
 }
 
 a:hover, h2:hover {
-  color:white;
+  color:#5EC19E;
   text-decoration: underline;
 }
 
