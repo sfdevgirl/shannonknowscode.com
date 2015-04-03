@@ -61,7 +61,7 @@
 		</figure>
 
 		<figure class="front-nav">
-			<a href="shannonknowscode.com/blog"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Downloads/png/press4_zps04aba3b1.png"  />
+			<a href="http://www.shannonknowscode.com/blog"><img src="http://i1144.photobucket.com/albums/o489/shannones1104/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Downloads/png/press4_zps04aba3b1.png"  />
 				<figcaption>Blog</figcaption></a>
 		</figure>
 	</div>
