@@ -158,13 +158,17 @@ top: 0;
 
 }
 
-h6{
-font-family: 'Special Elite', cursive;
-font-size:40px;
-
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 25px;
 }
-
-    nav{
+p.lang {
+    font-size: 15px;
+    margin-left: 45px;
+}
+nav{
         font-family: 'Englebert', sans-serif;
              background-color: transparent;
             min-height: 50px;
@@ -340,7 +344,7 @@ figcaption {
 }
 
 .project a:hover{
-    color: white;
+    color: #16a085;
     font-size: 18px;
     text-decoration: underline;
 }
@@ -392,6 +396,7 @@ margin-top:10px;
 border-top: 15px double #16a085;
 padding:10px;
 width:1080px;
+padding-top: 24px;
 }
 p {margin:0;}
 
@@ -706,6 +711,22 @@ background-color: white;
     height: 560px;
    
 
+}
+figure#final {
+    clear: both;
+}
+figure#stack {
+    float: right;
+}
+figure#quiz {
+    clear: both;
+    float: left;
+}
+figure#hot-cold {
+    float: right;
+}
+figure#list {
+    float: left;
 }
 
 /*article.glass {
