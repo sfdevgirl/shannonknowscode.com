@@ -1,35 +1,119 @@
-
-
 html{
-         background: url(http://i1375.photobucket.com/albums/ag479/shannonknowscode/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Images/Smooth-Touch-Workspace-1300x866_zps6b29158c.jpg) no-repeat center center fixed; 
+         background: url(http://i1375.photobucket.com/albums/ag479/shannonknowscode/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Images/IMG_6855-1300x866_zps5c49dab9.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-width: 100%;
 
-    /* background-color: #D3D3D3;*/
-        
-        
+width:auto;
+      
+        text-align: center;
+        width: 100%;
     }
 
-
-
-body{
-
+body {
+        margin: 0 auto;
+        padding: 10px 10px 20px 10px;
+        
+}
+header{
+        
+  margin: 50px auto;
+    }
+.index {
+    margin-top: -90px;
+}
  
+.title {
+  font-family: 'Hammersmith One';
+line-height: 150%;
+letter-spacing: .1em;
+text-align: center;
+font-size: 100px;
+color: #333;
+padding-top: 30px;
+margin: 0;
+}
+
+h2.php.lead{
+
+padding-bottom: 10px;
+font-family: 'Quicksand';
+text-align: center;
+font-size: 50px;
+color: white;
+margin: 0;
+padding-top: 10px;
+text-decoration: none;
+line-height: 72%;
+margin-bottom: 37px;
+}
+
+#head-tag {
+font-family: 'Quicksand';
+font-size:50px;
+color:#333;
+text-decoration: none;
+letter-spacing:.02em;
+}
+
+.tag, a {
+text-align:center;
+margin-bottom:30px;
 
 }
 
-.overflow {
-    overflow: hidden;
+a:hover, h2:hover {
+  color:#5EC19E;
+  text-decoration: underline;
 }
-.body{
 
-    
-    
-        }
 
+
+
+h3.tagline {
+
+font-family: 'Quicksand';
+font-size:40px;
+color:black;
+letter-spacing:.02em;
+background-color: white;
+width:800px;
+margin-bottom: 30px;
+}
+.button-info{
+    color: #fff;
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+
+.front-nav {
+    margin-left: 90px;
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+.front-nav img{
+    
+    width:115px;
+    padding-bottom: 10px;
+}
+
+.front-nav img:hover {
+    position:relative;
+   bottom:5px;
+}
+
+.front-nav > a {
+  color: black;
+    text-decoration: none;
+    font-family:'Hammersmith One';
+    font-size: 19px;
+}
+.masthead.clearfix {
+    display: none;
+}
 .page{
 
 
@@ -165,7 +249,7 @@ h6 {
     margin-top: 25px;
 }
 p.lang {
-    font-size: 15px;
+    font-size: 17px;
     margin-left: 45px;
 }
 nav{
@@ -185,9 +269,7 @@ font-weight: bold;
     }
 
         
-    .port{
-        position: fixed;
-    }
+    
     nav li{
          display: inline-block;
 padding: 1px 40px;
@@ -298,7 +380,11 @@ clear: both;
 
 #second{
       float: right;
-  margin-top: -204px;
+  
+}
+figure#family {
+    clear: both;
+    float: left;
 }
 
 .project img{
@@ -351,26 +437,28 @@ figcaption {
 
 
 
-.me {
+/*.me {
 margin-bottom: 10px;
 margin-left: 20px;
 float: right;
 border: 2px solid #333;
-}
+}*/
 img.me {
     height: 246px;
-}
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    }
 
 article {
 color: #333;
-width: 1100px;
+
 margin: 20px 40px 0 20px;
 font-size: 18px;
 text-indent: 3em;
 font-family: 'Raleway';
 line-height: 180%;
 text-align:justify;
-float: right;
 
 padding-top:10px;
 }
@@ -423,7 +511,7 @@ article a:hover, a:active {
     text-decoration: underline;
 }
 
-blockquote {
+.blockquote {
 font-family: 'Fjalla One', sans-serif;
 font-size:36px;
 color: white;
@@ -462,11 +550,10 @@ word-wrap: break-word;
 
 .info {
     
-
-float: left;
-clear: both;
-padding-right: 60px;
-padding-left:5px;
+    padding-left: 5px;
+    margin-top: 120px;
+    float: left;
+    padding-right: 60px;
 }
 
 .location{
@@ -551,7 +638,7 @@ margin: 1px;
     
      
 }
-}
+
 
 .rate-info {
     color:#333;
@@ -599,13 +686,13 @@ position: fixed;
 bottom: 0;
 right: 0;
 width:100%;
-
 font-family: 'Poiret One', cursive;
 margin: 0;
 padding-right: 10px;
 padding-bottom: 10px;
 height: auto;
 background-color: #333;
+display: none;
 }
 
 footer ul {
@@ -680,17 +767,17 @@ float: right;
 .glass {
    
 
- 
 border-radius: 4px;
 background-color: rgba(255,255,255, 0.5);
-margin-top: 40px;
-margin-right: 40px;
-padding: 10px 20px 40px 15px;
+margin-top: 12px;
+margin-right: 80px;
+padding: 10px 20px 20px 15px;
 width: 1160px;
-height: 500px;
+height: 632px;
 
 text-align:justify;
 float: right;
+display: none;
 overflow-y: scroll;
 }
 
@@ -714,9 +801,11 @@ background-color: white;
 }
 figure#final {
     clear: both;
+    float: left;
 }
 figure#stack {
     float: right;
+    
 }
 figure#quiz {
     clear: both;
@@ -724,9 +813,29 @@ figure#quiz {
 }
 figure#hot-cold {
     float: right;
+    ;
 }
 figure#list {
     float: left;
+    clear: both;
+}
+div#school {
+    clear: both;
+}
+div#sites {
+    height: 882px;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /*article.glass {
@@ -737,4 +846,16 @@ figure#list {
     padding: 10px 20px 0px 15px;
 }
 */
+.barnav a, .barnav{ padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: inline-flex;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+#school pre{
+
    
+    background-color: transparent;
+    
+}
